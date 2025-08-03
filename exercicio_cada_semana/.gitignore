@@ -1,0 +1,232 @@
+# Arquivo .gitignore para projetos C++
+
+#== Arquivos de Compilação ==#
+# Arquivos objeto, bibliotecas estáticas e dinâmicas, executáveis
+*.o
+*.obj
+*.lo
+*.la
+*.slo
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.exe
+*.out
+*.app
+
+#== Diretórios de Build ==#
+# Diretórios de compilação comuns de ferramentas como CMake, Meson, etc.
+build/
+build-*/
+bin/
+obj/
+debug/
+release/
+install/
+_build/
+CMakeBuilds/
+.cache/
+
+#== Arquivos Gerados pelo CMake ==#
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeLists.txt.user
+CTestTestfile.cmake
+compile_commands.json
+
+#== Arquivos de Projeto de IDEs e Editores ==#
+
+# Visual Studio / Visual Studio Code
+.vs/
+.vscode/
+*.VC.db
+*.suo
+*.user
+*.vcxproj.user
+*.vcxproj.filters
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.sln.docstates
+output/
+
+# CLion
+.idea/
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# Code::Blocks
+*.cbp
+*.depend
+*.layout
+
+# Eclipse
+.cproject
+.project
+.settings/
+*.launch
+
+#== Arquivos de Depuração e Profiling ==#
+# Arquivos de depuração do gdb
+*.stackdump
+
+# Arquivos de profiling do gcov e lcov
+*.gcno
+*.gcda
+*.gcov
+coverage.info
+
+# Valgrind
+vgcore.*
+
+#== Arquivos de Sistema Operacional ==#
+# Arquivos de sistema do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos de sistema do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#== Outros ==#
+# Arquivos de log
+*.log
+
+# Arquivos compactados
+*.zip
+*.tar.gz
+*.rar
+
+# Arquivos de dependências (é preferível usar um gerenciador de pacotes)
+vendor/
+deps/
+
+# Doxygen
+Doxyfile.user# Arquivo .gitignore para projetos C++
+# Este arquivo especifica arquivos e diretórios que o Git deve ignorar.
+# É uma boa prática incluir este arquivo no seu repositório.
+
+#== Arquivos de Compilação ==#
+# Arquivos objeto, bibliotecas estáticas e dinâmicas, executáveis
+*.o
+*.obj
+*.lo
+*.la
+*.slo
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.exe
+*.out
+*.app
+
+#== Diretórios de Build ==#
+# Diretórios de compilação comuns de ferramentas como CMake, Meson, etc.
+build/
+build-*/
+bin/
+obj/
+debug/
+release/
+install/
+_build/
+CMakeBuilds/
+.cache/
+
+#== Arquivos Gerados pelo CMake ==#
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeLists.txt.user
+CTestTestfile.cmake
+compile_commands.json
+
+#== Arquivos de Projeto de IDEs e Editores ==#
+
+# Visual Studio / Visual Studio Code
+.vs/
+.vscode/
+*.VC.db
+*.suo
+*.user
+*.vcxproj.user
+*.vcxproj.filters
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.sln.docstates
+
+# CLion
+.idea/
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# Code::Blocks
+*.cbp
+*.depend
+*.layout
+
+# Eclipse
+.cproject
+.project
+.settings/
+*.launch
+
+#== Arquivos de Depuração e Profiling ==#
+# Arquivos de depuração do gdb
+*.stackdump
+
+# Arquivos de profiling do gcov e lcov
+*.gcno
+*.gcda
+*.gcov
+coverage.info
+
+# Valgrind
+vgcore.*
+
+#== Arquivos de Sistema Operacional ==#
+# Arquivos de sistema do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos de sistema do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#== Outros ==#
+# Arquivos de log
+*.log
+
+# Arquivos compactados
+*.zip
+*.tar.gz
+*.rar
+
+# Arquivos de dependências (é preferível usar um gerenciador de pacotes)
+vendor/
+deps/
+
+# Doxygen
+Doxyfile.user
